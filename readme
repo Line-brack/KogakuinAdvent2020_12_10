@@ -1,0 +1,10 @@
+作成日：2020/12/10
+編集者：Linebrack
+これは2020 AdventCalendarの記事で使ったコードです。
+内容としては、
+・samplingCongruence.cppで線形合同法による一様分布・正規分布・ベータ分布・ポアソン分布のサンプリング
+・samplingMT.cppでメルセンヌツイスタによる一様分布・正規分布・ベータ分布・ポアソン分布のサンプリング
+いずれかコンパイルして実行するとuniform.csv,norm.csv,beta.csv,poisson.csvとして乱数が保存される。
+>python plotHistgram.pyで各サンプリング結果のヒストグラムをグラフ化する
+
+MT.hは https://omitakahiro.github.io/random/random_variables_generation.html#Prepare_MT を参考にしました。
